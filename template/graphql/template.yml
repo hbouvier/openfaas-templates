@@ -1,5 +1,5 @@
 language: graphql
-fprocess: node index.js
+fprocess: node_modules/.bin/nodemon index.js
 welcome_message: |
   You have created a new function which uses Apollo GraphQL and the OpenFaaS
   of-watchdog which gives greater control over HTTP responses.

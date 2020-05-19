@@ -1,0 +1,6 @@
+language: scala
+fprocess: nodemon -e scala -w src -x 'sbt run'
+welcome_message: |
+  You have created a new function which uses Scala and the OpenFaaS
+  of-watchdog which gives greater control over HTTP responses.
+  

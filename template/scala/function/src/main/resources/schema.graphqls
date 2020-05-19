@@ -1,0 +1,13 @@
+type Query {
+  health: Health!
+  version: String!
+}
+
+type Mutation {
+  hello(who: String): String!
+}
+
+type Health {
+    ok: Boolean!
+    message: String
+}
